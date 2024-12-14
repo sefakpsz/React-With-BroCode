@@ -1,16 +1,7 @@
-function Button(){
-    const styles = {
-            backgroundColor: "hsl(200,100%,50%)",
-            color: "white",
-            padding: "10px 20px",
-            borderRadius: "5px",
-            border: "none",
-            cursor: "pointer",
-    }
+function Button() {
+  const handleClick = (e) => (e.target.textContent = "OUCH D: !");
 
-    return(
-        <button style={styles}>Click me</button>
-    )
+  return <button onDoubleClick={(e) => handleClick(e)}>Click me :D</button>;
 }
 
-export default Button
+export default Button;
