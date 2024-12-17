@@ -5,7 +5,12 @@
 // import List from "./List/List.jsx";
 // import ProfilePicture from "./ProfilePicture/ProfilePicture";
 // import MyComponent from "./MyComponent/MyComponent";
-import Counter from "./Counter/Counter";
+// import Counter from "./Counter/Counter";
+// import OnChangeEventHandler from "./OnChangeEventHandler/OnChangeEventHandler";
+// import ColorPicker from "./ColorPicker/ColorPicker";
+// import CounterV2 from "./CounterV2/CounterV2";
+
+import UpdatingStateOfObject from "./UpdatingStateOfObject/UpdatingStateOfObject";
 
 function App() {
   // const fruits = [
@@ -26,9 +31,13 @@ function App() {
 
   return (
     <>
+      <UpdatingStateOfObject />
+      {/*
+      <CounterV2 />
+      <ColorPicker />
+      <OnChangeEventHandler />
+      <MyComponent />
       <Counter />
-
-      {/*<MyComponent />
       <ProfilePicture />
       <Button />
       <Card />
