@@ -11,8 +11,9 @@
 // import CounterV2 from "./CounterV2/CounterV2";
 // import UpdatingStateOfObject from "./UpdatingStateOfObject/UpdatingStateOfObject";
 // import UpdatingStateOfArray from "./UpdatingStateOfArray/UpdatingStateOfArray";
+// import UpdatingStateOfArrayOfObject from "./UpdatingStateOfArrayOfObject/UpdatingStateOfArrayOfObject";
 
-import UpdatingStateOfArrayOfObject from "./UpdatingStateOfArrayOfObject/UpdatingStateOfArrayOfObject";
+import ToDoList from "./ToDoList/ToDoList";
 
 function App() {
   // const fruits = [
@@ -33,8 +34,9 @@ function App() {
 
   return (
     <>
-      <UpdatingStateOfArrayOfObject />
+      <ToDoList />
       {/*
+      <UpdatingStateOfArrayOfObject />
       <UpdatingStateOfArray />
       <UpdatingStateOfObject />
       <CounterV2 />
