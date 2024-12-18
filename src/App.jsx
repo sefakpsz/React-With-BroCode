@@ -9,8 +9,10 @@
 // import OnChangeEventHandler from "./OnChangeEventHandler/OnChangeEventHandler";
 // import ColorPicker from "./ColorPicker/ColorPicker";
 // import CounterV2 from "./CounterV2/CounterV2";
+// import UpdatingStateOfObject from "./UpdatingStateOfObject/UpdatingStateOfObject";
+// import UpdatingStateOfArray from "./UpdatingStateOfArray/UpdatingStateOfArray";
 
-import UpdatingStateOfObject from "./UpdatingStateOfObject/UpdatingStateOfObject";
+import UpdatingStateOfArrayOfObject from "./UpdatingStateOfArrayOfObject/UpdatingStateOfArrayOfObject";
 
 function App() {
   // const fruits = [
@@ -31,8 +33,10 @@ function App() {
 
   return (
     <>
-      <UpdatingStateOfObject />
+      <UpdatingStateOfArrayOfObject />
       {/*
+      <UpdatingStateOfArray />
+      <UpdatingStateOfObject />
       <CounterV2 />
       <ColorPicker />
       <OnChangeEventHandler />
