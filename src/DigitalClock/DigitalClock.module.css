@@ -1,0 +1,30 @@
+body{
+    background-image: url(../assets/trees.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.clock_container{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.323);
+}
+
+.clock{
+    color: hsla(0, 0%, 100%, 0.572);
+    font-size: 6rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-shadow: 3px 3px 5px black;
+}

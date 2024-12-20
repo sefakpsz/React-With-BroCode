@@ -12,8 +12,11 @@
 // import UpdatingStateOfObject from "./UpdatingStateOfObject/UpdatingStateOfObject";
 // import UpdatingStateOfArray from "./UpdatingStateOfArray/UpdatingStateOfArray";
 // import UpdatingStateOfArrayOfObject from "./UpdatingStateOfArrayOfObject/UpdatingStateOfArrayOfObject";
+// import ToDoList from "./ToDoList/ToDoList";
+// import LearnUseEffectColors from "./LearnUseEffect/LearnUseEffectColors";
+// import LearnUseEffectMeasure from "./LearnUseEffect/LearnUseEffectMeasure";
 
-import ToDoList from "./ToDoList/ToDoList";
+import DigitalClock from "./DigitalClock/DigitalClock";
 
 function App() {
   // const fruits = [
@@ -32,10 +35,23 @@ function App() {
   //   { id: 10, name: "broccoli", calories: 50 },
   // ];
 
+  // const [a, setA] = useState(false);
+
   return (
     <>
-      <ToDoList />
+      <DigitalClock />
       {/*
+      <LearnUseEffectMeasure />
+      <button
+        onClick={() => {
+          setA(!a);
+        }}
+      >
+        CLICK
+      </button>
+      {a && <LearnUseEffectMeasure />}
+      <LearnUseEffectColors />
+      <ToDoList />
       <UpdatingStateOfArrayOfObject />
       <UpdatingStateOfArray />
       <UpdatingStateOfObject />
