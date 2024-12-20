@@ -15,8 +15,9 @@
 // import ToDoList from "./ToDoList/ToDoList";
 // import LearnUseEffectColors from "./LearnUseEffect/LearnUseEffectColors";
 // import LearnUseEffectMeasure from "./LearnUseEffect/LearnUseEffectMeasure";
+// import DigitalClock from "./DigitalClock/DigitalClock";
 
-import DigitalClock from "./DigitalClock/DigitalClock";
+import ComponentA from "./LearnUseContext/ComponentA";
 
 function App() {
   // const fruits = [
@@ -39,8 +40,9 @@ function App() {
 
   return (
     <>
-      <DigitalClock />
+      <ComponentA />
       {/*
+      <DigitalClock />
       <LearnUseEffectMeasure />
       <button
         onClick={() => {
