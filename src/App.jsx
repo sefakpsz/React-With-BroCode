@@ -16,8 +16,10 @@
 // import LearnUseEffectColors from "./LearnUseEffect/LearnUseEffectColors";
 // import LearnUseEffectMeasure from "./LearnUseEffect/LearnUseEffectMeasure";
 // import DigitalClock from "./DigitalClock/DigitalClock";
+// import ComponentA from "./LearnUseContext/ComponentA";
+// import LearnUseRef from "./LearnUseRef/LearnUseRef";
 
-import ComponentA from "./LearnUseContext/ComponentA";
+import Stopwatch from "./Stopwatch/Stopwatch";
 
 function App() {
   // const fruits = [
@@ -40,8 +42,10 @@ function App() {
 
   return (
     <>
-      <ComponentA />
+      <Stopwatch />
       {/*
+      <LearnUseRef />
+      <ComponentA />
       <DigitalClock />
       <LearnUseEffectMeasure />
       <button
