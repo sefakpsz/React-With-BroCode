@@ -12,14 +12,15 @@
 // import UpdatingStateOfObject from "./UpdatingStateOfObject/UpdatingStateOfObject";
 // import UpdatingStateOfArray from "./UpdatingStateOfArray/UpdatingStateOfArray";
 // import UpdatingStateOfArrayOfObject from "./UpdatingStateOfArrayOfObject/UpdatingStateOfArrayOfObject";
-// import ToDoList from "./ToDoList/ToDoList";
 // import LearnUseEffectColors from "./LearnUseEffect/LearnUseEffectColors";
 // import LearnUseEffectMeasure from "./LearnUseEffect/LearnUseEffectMeasure";
 // import DigitalClock from "./DigitalClock/DigitalClock";
 // import ComponentA from "./LearnUseContext/ComponentA";
 // import LearnUseRef from "./LearnUseRef/LearnUseRef";
+// import Stopwatch from "./Stopwatch/Stopwatch";
 
 import Stopwatch from "./Stopwatch/Stopwatch";
+import ToDoList from "./ToDoList/ToDoList";
 
 function App() {
   // const fruits = [
@@ -42,6 +43,7 @@ function App() {
 
   return (
     <>
+      <ToDoList />
       <Stopwatch />
       {/*
       <LearnUseRef />
@@ -57,7 +59,6 @@ function App() {
       </button>
       {a && <LearnUseEffectMeasure />}
       <LearnUseEffectColors />
-      <ToDoList />
       <UpdatingStateOfArrayOfObject />
       <UpdatingStateOfArray />
       <UpdatingStateOfObject />
